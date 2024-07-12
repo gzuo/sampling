@@ -10,10 +10,120 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Qingfeng(George) Zuo
 
 ```
 Please write your explanation here...
+
+
+### 1
+Stage 1 - Event Simulation
+Sampling Frame: The entire population attending events, divided into 200 attendees at weddings and 800 at brunches.
+Sample Size: 1000 people (200 at weddings, 800 at brunches).
+
+Stage 2 - Infection Assignment
+Procedure: Randomly infect 10%(ATTACK_RATE) of the population.
+Underlying Distribution: Binomial distribution, where each individual has a 10% chance of being infected.
+
+Stage 3 - Primary Contact Tracing
+Procedure: Randomly determine which infected individuals are successfully traced with a 20%(TRACE_SUCCESS) success rate.
+Underlying Distribution: Binomial distribution, where each infected individual has a 20% chance of being traced.
+
+Stage 4 - Secondary Contact Tracing
+Procedure: If at least 2(SECONDARY_TRACE_THRESHOLD) infections are traced back to the same event, trace all infections from that event.
+Sampling Frame: Events where primary tracing identified at least two infections.
+
+### 2
+The outcome of running 'whitby_covid_tracing.py' is different from the graphs in the original blog post.
+
+### 3
+In comparing the data in props_df between 1000 and 50000 repetitions as following, it looks the first 1000 rows are the same. 
+My understanding is that since we have set the random seed for reproducibility (np.random.seed(10)) so the outcome would be the same every time I run it.
+
+
+	Infections	Traces
+0	0.18	0.012048
+1	0.26	0.260000
+2	0.13	0.130000
+3	0.18	0.180000
+4	0.17	0.170000
+...	...	...
+995	0.20	0.200000
+996	0.29	0.290000
+997	0.19	0.190000
+998	0.23	0.230000
+999	0.20	0.200000
+1000 rows × 2 columns
+
+
+	Infections	Traces
+0	0.18	0.012048
+1	0.26	0.260000
+2	0.13	0.130000
+3	0.18	0.180000
+4	0.17	0.170000
+...	...	...
+49995	0.29	0.290000
+49996	0.15	0.150000
+49997	0.16	0.011765
+49998	0.17	0.170000
+49999	0.26	0.260000
+50000 rows × 2 columns
+
+
+### 4
+When I remove the code of setting random seeds, the data in props_df is different every time I run the code. 
+The followings are the data in props_df of running the code 3 times with 1000 repetitions.  The outcomes are different every time I run the code.
+Once I set the random seeds to 10 again, the result got back to the same as before.
+
+
+1st time
+	Infections	Traces
+0	0.30	0.300000
+1	0.17	0.170000
+2	0.12	0.011236
+3	0.21	0.012500
+4	0.22	0.220000
+...	...	...
+995	0.25	0.250000
+996	0.18	0.180000
+997	0.18	0.012048
+998	0.17	0.170000
+999	0.22	0.220000
+1000 rows × 2 columns
+
+2nd time
+	Infections	Traces
+0	0.18	0.180000
+1	0.22	0.220000
+2	0.22	0.220000
+3	0.13	0.000000
+4	0.21	0.210000
+...	...	...
+995	0.18	0.180000
+996	0.18	0.012048
+997	0.23	0.230000
+998	0.25	0.250000
+999	0.22	0.220000
+1000 rows × 2 columns
+
+3rd time
+	Infections	Traces
+0	0.22	0.220000
+1	0.18	0.012048
+2	0.20	0.200000
+3	0.18	0.180000
+4	0.25	0.250000
+...	...	...
+995	0.18	0.180000
+996	0.22	0.220000
+997	0.15	0.011628
+998	0.19	0.190000
+999	0.24	0.240000
+1000 rows × 2 columns
+
+
+
 
 ```
 
