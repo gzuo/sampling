@@ -16,27 +16,53 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+
+To investigate the reasons of the high turnover rate among entry- and lower-level positions at the tech company. 
+It aims to identify factors contributing to employee dissatisfaction and to gather suggestions for improving employee retention and satisfaction.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+
+- Target Population: Employees in entry- and lower-level positions at our company.
+
+- Sampling Frame: Employee records and department infomation maintained by the HR Department.
+
+- Sampling Units: Individual employees who are currently at entry- or lower-level position.
+
+- Overall Sampling Strategy: Given the difficulty in surveying former employees, the survey will focus on gathering feedback from current employees. 
+  This approach will utilize existing internal communication channels such as employee survey platforms or regular feedback sessions to ensure broad participation and to capture diverse perspectives.
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+On a scale of 1(unsatisfied) to 5(satisfied), how satisfied are you with your current role and responsibilities?
+
 2. write your question here...
+Do you feel that your job tasks aligned with your skills and professional background?
+
 3. write your question here...
+Do you feel that your workload was manageable, or did you experience excessive work demands and lack of work-life balance?
+
 4. write your question here...
+Are you satisfied with the career development opportunities offered by the company?
+
 5. write your question here...
+Do you perceive that management adequately valued employee opinions and suggestions?
+
 6. write your question here... (optional)
+Have you encountered any challenges or obstacles that affect your work performance?
+
 7. write your question here... (optional)
+What improvements would you suggest to enhance employee satisfaction and retention?
+
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
