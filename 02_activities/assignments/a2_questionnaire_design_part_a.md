@@ -36,35 +36,101 @@ write your answer here...
 
 - Sampling Units: Individual employees who are currently at entry- or lower-level position.
 
-- Overall Sampling Strategy: Given the difficulty in surveying former employees, the survey will focus on gathering feedback from current employees. 
-  This approach will utilize existing internal communication channels such as employee survey platforms or regular feedback sessions to ensure broad participation and to capture diverse perspectives.
+- Overall Sampling Strategy: 
+  The most appropriate sampling strategy for this survey is stratified random sampling.
+
+  It ensures that different subgroups (strata) within the entry- and lower-level positions are adequately 
+  represented in the sample. This approach can account for variations across departments, job roles, 
+  and other relevant factors, providing a more comprehensive understanding of employee satisfaction and turnover reasons.
+
+  Given the difficulty in surveying former employees, the survey will focus on gathering feedback from current employees. 
+  
 ```
 
 Your 5-10 question survey:
 ```
 1. write your question here...
-On a scale of 1(unsatisfied) to 5(satisfied), how satisfied are you with your current role and responsibilities?
+How satisfied are you with your current role and responsibilities?
+- Very dissatisfied
+- Dissatisfied
+- Neutral
+- Satisfied
+- Very satisfied
+
 
 2. write your question here...
-Do you feel that your job tasks aligned with your skills and professional background?
+How manageable do you find your current workload?
+- Very unmanageable
+- Unmanageable
+- Neutral
+- Manageable
+- Very manageable
+
 
 3. write your question here...
-Do you feel that your workload was manageable, or did you experience excessive work demands and lack of work-life balance?
+Do you feel that your job tasks align with your skills and professional background?
+- Not at all
+- Slightly
+- Moderately
+- Very
+- Extremely
+
 
 4. write your question here...
-Are you satisfied with the career development opportunities offered by the company?
+How satisfied are you with the career development opportunities provided by the company?
+- Very dissatisfied
+- Dissatisfied
+- Neutral
+- Satisfied
+- Very satisfied
+
 
 5. write your question here...
-Do you perceive that management adequately valued employee opinions and suggestions?
+Which of the following factors contribute most to your job satisfaction? (Select all that apply)
+- Salary and benefits
+- Work-life balance
+- Opportunities for career advancement
+- Relationship with colleagues
+- Relationship with supervisors
+- Job security
+
 
 6. write your question here... (optional)
-Have you encountered any challenges or obstacles that affect your work performance?
+Have you encountered any of the following challenges or obstacles that affect your work performance? (Select all that apply)
+- Lack of training
+- High workload
+- Lack of resources
+- Poor management
+- Inadequate compensation
+- Limited career growth opportunities
+
 
 7. write your question here... (optional)
-What improvements would you suggest to enhance employee satisfaction and retention?
+Do you feel that management values employee opinions and suggestions?
+- Strongly disagree
+- Disagree
+- Neutral
+- Agree
+- Strongly agree
+
 
 8. write your question here... (optional)
+How long have you been working at our company?
+- Less than 6 months
+- 6 months to 1 year
+- 1 to 2 years
+- More than 2 years
+
+
 9. write your question here... (optional)
+How likely are you to recommend this company as a good place to work to a friend or colleague?
+- Very unlikely
+- Unlikely
+- Neutral
+- Likely
+- Very likely
+
+
 10. write your question here... (optional)
 ```
 
