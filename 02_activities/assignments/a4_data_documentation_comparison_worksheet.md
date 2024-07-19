@@ -6,21 +6,20 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 
 |                                                       | Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33) | Canadian Election Study Online Survey, 2019 | Trophic niche flexibility in Glossophaga soricina: how nectar seeker sneaks an insect snack |
 |----------------|:--------------------|----------------|---------------------|
-| Sample type                                           |                                                                                            |                                             |                                                                                             |
-| Sample size                                           |                                                                                            |                                             |                                                                                             |
-| Target population                                     |                                                                                            |                                             |                                                                                             |
-| Sampling frame                                        |                                                                                            |                                             |                                                                                             |
-| Survey mode(s)                                        |                                                                                            |                                             |                                                                                             |
-| Timeline                                              |                                                                                            |                                             |                                                                                             |
-| Response rate                                         |                                                                                            |                                             |                                                                                             |
-| Weights                                               |                                                                                            |                                             |                                                                                             |
-| Data processing                                       |                                                                                            |                                             |                                                                                             |
-| Cleaning, imputation, etc.                            |                                                                                            |                                             |                                                                                             |
-| Sources of error                                      |                                                                                            |                                             |                                                                                             |
-| Limitations, known biases                             |                                                                                            |                                             |                                                                                             |
-| Citation                                              |                                                                                            |                                             |                                                                                             |
-| Links to any documentation or additional sources used |                                                                                            |                                             |                                                                                             |
-
+| Sample type |This is a sample survey with a cross-sectional design | | |
+| Sample size |Field sample: approximately 50,000 units <br>Invitation letters sent: about 40,000 | | |
+| Target population |All persons 15 years of age and older living in the ten provinces of Canada, excluding full-time residents of institutions | | |
+| Sampling frame |Combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. | | |
+| Survey mode(s) |Electronic questionnaire <br>CATI (computer-assisted telephone interviewing) | | |
+| Timeline |Data collection for the 2018 reference period: 2018-09-04 to 2018-12-28 | | |
+| Response rate |Overall response rate: 41.9% | | |
+| Weights |WGHT_PER: Basic weighting factor for analysis at the person level <br>Adjusted weights for volunteer status and income distribution | | |
+| Data processing |Processing used the SSPE set of generalized processing steps and utilities | | |
+| Cleaning, imputation, etc. |All imputations were made using donor records selected through a score function. Imputation was carried out in nine steps. | | |
+| Sources of error |sampling error/Non-sampling error/Non-response bias/Coverage error | | |
+| Limitations, known biases |Imperfect coverage of households without telephones | | |
+| Citation |Statistics Canada. (2018). General Social Survey (GSS) on Giving, Volunteering, and Participating | | |
+| Links to any documentation or additional sources used |https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430| | |
 ## Criteria
 
 |Criteria|Complete|Incomplete|
