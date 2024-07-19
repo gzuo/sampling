@@ -51,11 +51,11 @@ Your 5-10 question survey:
 ```
 1. write your question here...
 How satisfied are you with your current role and responsibilities?
-- Very dissatisfied
-- Dissatisfied
-- Neutral
-- Satisfied
-- Very satisfied
+- 1 (Very Dissatisfied) 
+- 2 (Dissatisfied)
+- 3 (Neutral) 
+- 4 (Satisfied) 
+- 5 (Very Satisfied)
 
 
 2. write your question here...
@@ -132,6 +132,9 @@ How likely are you to recommend this company as a good place to work to a friend
 
 
 10. write your question here... (optional)
+Have you ever communicated suggestions regarding improvements to the work environment and employee benefits to the HR team or management?
+- Yes
+- No
 ```
 
 ## Rubric
