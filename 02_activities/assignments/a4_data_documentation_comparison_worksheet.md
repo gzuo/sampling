@@ -6,7 +6,7 @@ Sources: - Canadian General Social Survey on Giving, Volunteering, and Participa
 
 |                                                       | Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33) | Canadian Election Study Online Survey, 2019          | Trophic niche flexibility in Glossophaga soricina: how nectar seeker sneaks an insect snack |
 |----------------|---------------------|---------------------|---------------------|
-| Sample type |This is a sample survey with a cross-sectional design |Online sample procured through Qualtrics |Laboratory observations and DNA barcoding |
+| Sample type |Stratified and random sampling |Stratified sampling |Convenience Sampling |
 | Sample size |Field sample: approximately 50,000 units <br>Invitation letters sent: about 40,000 |Pre-election survey: 37,822 respondents<br> Post-election survey: 10,340 respondents  |Caught 112 G. soricina (73 females, 39 males) from 38 faecal samples. |
 | Target population |All persons 15 years of age and older living in the ten provinces of Canada, excluding full-time residents of institutions |Members of the Canadian general population aged 18 or over, and Canadian citizens or permanent residents |The Neotropical bat Glossophaga soricina |
 | Sampling frame |Combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. |Stratified by region and balanced on gender and age within each region​ |Not mentioned |
